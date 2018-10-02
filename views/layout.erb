@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <title>Ejemplo 2 de Sinatra</title>
+    </head>
+    <header>
+        <h1>Ejemplo 2 de Sinatra</h1>
+        <ul id="menu">
+            <li><a href="/">Home</a></li>
+            <li><a href="/contacto">Contacto</a></li>
+            <li><a href="/acercade">Acerca de la aplicación</a></li>
+            <li><a href="/clientes">Lista de clientes</a></li>
+            <li><a href="/canciones">Lista de canciones</a></li>
+        </ul>
+    </header>
+    <section>
+        <%=yield%>
+    </section>    
+    <footer>
+    <p>Todos los derechos resevados &copy;</p>
+    </footer>
+</html>

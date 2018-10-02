@@ -1,0 +1,28 @@
+body{
+    background-color: beige;
+}
+
+#menu{
+    list-style: none;
+    overflow: auto;
+    padding: 0;
+    margin: 0;
+}
+
+#menu li{
+    float: left;
+    width: 20%;
+    background-color: brown;
+}
+
+#menu li:hover{
+	opacity: .95
+}
+
+#menu li a{
+    text-decoration: none;
+	display: block;
+	color: white;
+    padding: 7px;
+    text-align: center;
+}
